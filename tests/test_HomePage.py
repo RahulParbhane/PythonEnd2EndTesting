@@ -18,7 +18,7 @@ class TestHomePage(BaseClass):
         self.selectOptionByText(homepage.dropdownmenu(),getData["gender"])
         homepage.submitbutton().click()
         message = homepage.getmessage().text
-        assert "success"!!!! Thankyou!!!! in message
+        assert "success"!!!!Thankyou!!!! in message
         self.driver.refresh()
 
     @pytest.fixture(params=HomePageData.getTestData("Testcase2"))
