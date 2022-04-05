@@ -1,0 +1,12 @@
+1648976096435	geckodriver	INFO	Listening on 127.0.0.1:64410
+1648976099519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64411" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilewtr1Kg"
+1648976101138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilewtr1Kg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64411/devtools/browser/0713e845-0e84-4d6c-8104-710c11b783bc
+1648976105652	Marionette	INFO	Listening on port 64417
+1648976105931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rahulshettyacademy.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rahulshettyacademy.com"
+1648976115776	Marionette	INFO	Stopped listening on port 64417
